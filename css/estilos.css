@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+:root {
+    --color-primario: #0A0E2B;
+    --color-secundario: #0045F5;
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: fixed;
+}
+.container-w{
+    max-width: 1200px;
+    width: 1024;
+    margin: 0 auto;
+}
+.container__navegacion {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+.logo h1 {
+    font-size: 20px;
+    margin-left: 10px;
+    color: var(--color-primario);
+}
+.menu-navegacion ul {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-navegacion ul li{
+    padding-right: 30px;
+    list-style: none;
+}
+.menu-navegacion ul li a {
+    text-decoration: none;
+    color: var(--color-primario);
+    font-size:  14px;
+}
+
+.boton-primario {
+    height: 32px;
+    width: 100px;
+    background-color:  var(--color-secundario);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.boton-primario a{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.banner-principal {
+    height: 500px;
+    background-color: #F1F7FF;
+}
